@@ -18,6 +18,7 @@ Clone this repository:
 
 git clone https://github.com/mr-aniket-shahane/LeetCode
 
+
 Open the project in Visual Studio or any C# IDE.
 
 Run the solutions to test them.
@@ -25,11 +26,24 @@ Run the solutions to test them.
 📂 Folder Structure
 
 LeetCode-Solutions/
-│-- 001_TwoSum.cs
-│-- 002_AddTwoNumbers.cs
+│-- 1071_GreatestCommonDivisorOfStrings.cs
 │-- 189_RotateArray.cs
-│-- ...
-│-- README.md
+│-- 2352_EqualRowAndColumnPairs.cs
+│-- 345_ReverseVowelsOfAString.cs
+│-- 605_CanPlaceFlowers.cs
+│-- CanJump.cs
+│-- HIndex.cs
+│-- IntToRoman.cs
+│-- IsSubsequence.cs
+│-- Jump2.cs
+│-- LeetCode.csproj
+│-- MergeStringsAlternately.cs
+│-- MostCommonWord.cs
+│-- Pending.cs
+│-- Program.cs
+│-- RemoveDuplicates.cs
+│-- ZigZagConvert.cs
+│-- ProductExceptSelf.cs
 
 🏆 Solved Problems
 
@@ -39,21 +53,93 @@ Problem Name
 
 Difficulty
 
-1
+1071
 
-Two Sum
+Greatest Common Divisor of Strings
 
 Easy
-
-2
-
-Add Two Numbers
-
-Medium
 
 189
 
 Rotate Array
+
+Medium
+
+2352
+
+Equal Row and Column Pairs
+
+Medium
+
+345
+
+Reverse Vowels of a String
+
+Easy
+
+605
+
+Can Place Flowers
+
+Easy
+
+-
+
+Can Jump
+
+Medium
+
+-
+
+H Index
+
+Medium
+
+-
+
+Int to Roman
+
+Medium
+
+-
+
+Is Subsequence
+
+Easy
+
+-
+
+Jump 2
+
+Medium
+
+-
+
+Merge Strings Alternately
+
+Easy
+
+-
+
+Most Common Word
+
+Easy
+
+-
+
+Remove Duplicates
+
+Easy
+
+-
+
+ZigZag Convert
+
+Medium
+
+-
+
+Product Except Self
 
 Medium
 
@@ -72,3 +158,5 @@ Providing alternative approaches.
 📜 License
 
 This project is open-source and available under the MIT License.
+
+Star ⭐ this repository if you find it helpful! Happy Coding! 😃
