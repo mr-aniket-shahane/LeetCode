@@ -1,30 +1,23 @@
-LeetCode Solutions
+# LeetCode Solutions
 
-Welcome to my LeetCode Solutions repository! 🚀 This repository contains my solutions to various LeetCode problems, implemented in C#. The goal of this project is to improve problem-solving skills, optimize algorithms, and learn different coding techniques.
+Welcome to my **LeetCode Solutions** repository! 🚀 This repository contains my solutions to various LeetCode problems, implemented in **C#**. The goal of this project is to improve problem-solving skills, optimize algorithms, and learn different coding techniques.
 
-📌 About This Repository
+## 📌 About This Repository
+- Solutions are categorized based on problem numbers.
+- Each solution is well-structured and optimized.
+- Focus on writing clean, readable, and efficient code.
+- Implementations follow best coding practices.
 
-Solutions are categorized based on problem numbers.
+## 🔧 How to Use
+1. Clone this repository:
+   ```sh
+   git clone https://github.com/mr-aniket-shahane/LeetCode/
+   ```
+2. Open the project in **Visual Studio** or any C# IDE.
+3. Run the solutions to test them.
 
-Each solution is well-structured and optimized.
-
-Focus on writing clean, readable, and efficient code.
-
-Implementations follow best coding practices.
-
-🔧 How to Use
-
-Clone this repository:
-
-git clone https://github.com/mr-aniket-shahane/LeetCode
-
-
-Open the project in Visual Studio or any C# IDE.
-
-Run the solutions to test them.
-
-📂 Folder Structure
-
+## 📂 Folder Structure
+```
 LeetCode-Solutions/
 │-- 1071_GreatestCommonDivisorOfStrings.cs
 │-- 189_RotateArray.cs
@@ -44,119 +37,38 @@ LeetCode-Solutions/
 │-- RemoveDuplicates.cs
 │-- ZigZagConvert.cs
 │-- ProductExceptSelf.cs
+```
 
-🏆 Solved Problems
-
-Problem #
-
-Problem Name
-
-Difficulty
-
-1071
-
-Greatest Common Divisor of Strings
-
-Easy
-
-189
-
-Rotate Array
-
-Medium
-
-2352
-
-Equal Row and Column Pairs
-
-Medium
-
-345
-
-Reverse Vowels of a String
-
-Easy
-
-605
-
-Can Place Flowers
-
-Easy
-
--
-
-Can Jump
-
-Medium
-
--
-
-H Index
-
-Medium
-
--
-
-Int to Roman
-
-Medium
-
--
-
-Is Subsequence
-
-Easy
-
--
-
-Jump 2
-
-Medium
-
--
-
-Merge Strings Alternately
-
-Easy
-
--
-
-Most Common Word
-
-Easy
-
--
-
-Remove Duplicates
-
-Easy
-
--
-
-ZigZag Convert
-
-Medium
-
--
-
-Product Except Self
-
-Medium
+## 🏆 Solved Problems
+| Problem # | Problem Name | Difficulty |
+|-----------|-------------|------------|
+| 1071 | Greatest Common Divisor of Strings | Easy |
+| 189 | Rotate Array | Medium |
+| 2352 | Equal Row and Column Pairs | Medium |
+| 345 | Reverse Vowels of a String | Easy |
+| 605 | Can Place Flowers | Easy |
+| - | Can Jump | Medium |
+| - | H Index | Medium |
+| - | Int to Roman | Medium |
+| - | Is Subsequence | Easy |
+| - | Jump 2 | Medium |
+| - | Merge Strings Alternately | Easy |
+| - | Most Common Word | Easy |
+| - | Remove Duplicates | Easy |
+| - | ZigZag Convert | Medium |
+| - | Product Except Self | Medium |
 
 More problems coming soon! 🚀
 
-💡 Contributing
-
+## 💡 Contributing
 Feel free to contribute by:
+- Adding new solutions.
+- Improving existing solutions.
+- Providing alternative approaches.
 
-Adding new solutions.
+## 📜 License
+This project is open-source and available under the **MIT License**.
 
-Improving existing solutions.
+---
+_Star ⭐ this repository if you find it helpful! Happy Coding!_ 😃
 
-Providing alternative approaches.
-
-📜 License
-
-This project is open-source and available under the MIT License.
-
-Star ⭐ this repository if you find it helpful! Happy Coding! 😃
