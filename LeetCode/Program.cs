@@ -34,33 +34,4 @@ int Candy(int[] ratings)
         }
     }
     return count+ ratings.Length;
-}
-//Console.WriteLine(IsSubsequence("abxc", "ahbgdc"));
-
-
-//bool IsSubsequence(string s, string t)
-//{
-
-
-//    List<char> list = new List<char>(s.ToCharArray());
-//    List<char> tList = new List<char>(t.ToCharArray());
-//    int isfound = list.Count();
-//    int counter = 0;
-//    foreach (char c in tList)
-//    {
-//        if (counter < list.Count())
-//        {
-//            if (c == list[counter])
-//            {
-//                counter++;
-//                isfound--;
-//            }
-//        }
-//        if(isfound == 0)
-//        {
-//            return true;
-//        }
-//    }
-
-//    return false;
-//}
+} 
