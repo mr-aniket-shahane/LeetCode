@@ -8,11 +8,11 @@ namespace LeetCode
 {
     public class RemoveDuplicates
     {
-        public static void Main(string[] args)
-        {
-            int[] nums = { 1, 1, 1, 1, 2 };
-            Console.WriteLine(RemoveDuplicate1s(nums)); // 2 [1,2]
-        }
+        //public static void Main(string[] args)
+        //{
+        //    int[] nums = { 1, 1, 1, 1, 2 };
+        //    Console.WriteLine(RemoveDuplicate1s(nums)); // 2 [1,2]
+        //}
 
         public static int RemoveDuplicate1s(int[] nums)
         {

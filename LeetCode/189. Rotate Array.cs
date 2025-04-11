@@ -9,16 +9,16 @@ namespace LeetCode
     public class _189
     {
         ///  *************************************************189. Rotate Array
-        public static void Main()
-        {
-            int[] nums = { -1, -100, 3, 99 };
-            int k = 2;
+        //public static void Main()
+        //{
+        //    int[] nums = { -1, -100, 3, 99 };
+        //    int k = 2;
 
-            _189 obj = new _189();
-            obj.Rotate(nums, k);
+        //    _189 obj = new _189();
+        //    obj.Rotate(nums, k);
 
-            Console.WriteLine(string.Join(", ", nums));
-        }
+        //    Console.WriteLine(string.Join(", ", nums));
+        //}
         public void Rotate(int[] nums, int k)
         {
             List<int> list = new List<int>();

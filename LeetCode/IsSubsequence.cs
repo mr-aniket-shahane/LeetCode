@@ -9,7 +9,7 @@ namespace LeetCode
     {
 
 
-        bool IsSubsequence(string s, string t)
+        public bool IsSubsequence(string s, string t)
         {
 
 
@@ -35,11 +35,11 @@ namespace LeetCode
 
             return false;
         }
-        public static void Main()
-        {
-            Is_Subsequence obj = new();
+        //public static void Main()
+        //{
+        //    Is_Subsequence obj = new();
 
-            Console.WriteLine(obj.IsSubsequence("abxc", "ahbgdc"));
-        }
+        //    Console.WriteLine(obj.IsSubsequence("abxc", "ahbgdc"));
+        //}
     }
 }

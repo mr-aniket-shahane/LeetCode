@@ -10,7 +10,7 @@ namespace LeetCode
 
         //345. Reverse Vowels of a String
 
-        string ReverseVowels(string s)
+        public string ReverseVowels(string s)
         {
             List<char> list = new List<char>(['a', 'e', 'i', 'o', 'u', 'A', 'E', 'I', 'O', 'U']);
             List<char> currentChar = new List<char>();
@@ -44,12 +44,12 @@ namespace LeetCode
 
 
 
-        public static void Main()
-        {
-            Reverse_Vowels_of_a_String obj = new();
+        //public static void Main()
+        //{
+        //    Reverse_Vowels_of_a_String obj = new();
 
-            var r = obj.ReverseVowels("IceCreAm");
-            Console.WriteLine(r);
-        }
+        //    var r = obj.ReverseVowels("IceCreAm");
+        //    Console.WriteLine(r);
+        //}
     }
 }

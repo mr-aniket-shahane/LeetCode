@@ -11,7 +11,7 @@ namespace LeetCode
         //Most_CommonWord
 
 
-        string MostCommonWord(string paragraph, string[] banned)
+        public string MostCommonWord(string paragraph, string[] banned)
         {
             paragraph = paragraph.Trim().Replace(",", " ");
             paragraph = paragraph.Trim().Replace("?", " ");
@@ -51,7 +51,7 @@ namespace LeetCode
             return word.ToLower();
 
         }
-        string checkPunctualtion(string a)
+        public  string checkPunctualtion(string a)
         {
 
             if (char.IsPunctuation(a[a.Length - 1]))
@@ -60,11 +60,11 @@ namespace LeetCode
             }
             return a.ToLower();
         }
-        public static void Main()
-        {
-            Most_CommonWord obj = new(); 
-            Console.WriteLine(   obj.MostCommonWord("a, a, a, a, b,b,b,c, c", ["a"]));
+        //public static void Main()
+        //{
+        //    Most_CommonWord obj = new(); 
+        //    Console.WriteLine(   obj.MostCommonWord("a, a, a, a, b,b,b,c, c", ["a"]));
 
-        }
+        //}
     }
 }

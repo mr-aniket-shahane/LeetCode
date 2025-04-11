@@ -34,11 +34,11 @@ namespace LeetCode
             Console.WriteLine(resp);
             return resp;
         }
-        public static void Main()
-        {
-            MergeAlternately obj = new();
-            string word1 = "abc", word2 = "q";
-            obj.Merge_Alternately(word1, word2);
-        }
+        //public static void Main()
+        //{
+        //    MergeAlternately obj = new();
+        //    string word1 = "abc", word2 = "q";
+        //    obj.Merge_Alternately(word1, word2);
+        //}
     }
 }

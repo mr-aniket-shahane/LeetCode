@@ -9,12 +9,12 @@ namespace LeetCode
     internal class CanJump
     {
         //*************************************************** jump 
-        public static void Main()
-        {
-            int[] nums = { 2, 0, 0 };
-            CanJump c = new();
-            Console.WriteLine(CanJumpMethod(nums));
-        }
+        //public static void Main()
+        //{
+        //    int[] nums = { 2, 0, 0 };
+        //    CanJump c = new();
+        //    Console.WriteLine(CanJumpMethod(nums));
+        //}
 
         public static bool CanJumpMethod(int[] nums)
         {

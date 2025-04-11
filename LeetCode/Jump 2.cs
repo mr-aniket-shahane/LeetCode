@@ -8,12 +8,12 @@ namespace LeetCode
 {
     internal class Jump_2
     {
-        public static void Main()
-        {
-            Jump_2 c = new();
-            int[] nums = { 2, 1, 1, 1, 4 };
-            Console.WriteLine(c.Jump(nums));
-        }
+        //public static void Main()
+        //{
+        //    Jump_2 c = new();
+        //    int[] nums = { 2, 1, 1, 1, 4 };
+        //    Console.WriteLine(c.Jump(nums));
+        //}
         ///************************************************ Jump 2
        
         public int Jump(int[] nums)

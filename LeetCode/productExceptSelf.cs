@@ -30,12 +30,12 @@ namespace LeetCode
             }
             return ans;
         }
-        public static void Main()
-        {
-            int[] citations = { -1, 1, 0, -3, 3 };
-            productExceptSelf obj = new();
+        //public static void Main()
+        //{
+        //    int[] citations = { -1, 1, 0, -3, 3 };
+        //    productExceptSelf obj = new();
 
-            obj.ProductExceptSelf(citations);
-        }
+        //    obj.ProductExceptSelf(citations);
+        //}
     }
 }

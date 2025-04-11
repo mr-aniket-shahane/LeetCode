@@ -10,7 +10,7 @@ namespace LeetCode
 
         //  605. Can Place Flowers
 
-        bool CanPlaceFlowers(int[] flowerbed, int n)
+        public bool CanPlaceFlowers(int[] flowerbed, int n)
         {
             int noOfPlant = 0;
 
@@ -62,10 +62,10 @@ namespace LeetCode
             }
             return noOfPlant >= n ? true : false;
         }
-        public static void Main()
-        {
-            Can_Place_Flowers obj = new();
-            Console.WriteLine(obj.CanPlaceFlowers([0, 0, 0, 0], 3));
-        }
+        //public static void Main()
+        //{
+        //    Can_Place_Flowers obj = new();
+        //    Console.WriteLine(obj.CanPlaceFlowers([0, 0, 0, 0], 3));
+        //}
     }
 }

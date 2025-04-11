@@ -8,9 +8,9 @@ namespace LeetCode
     internal class IntTo_Roman
     {
 
-   
 
-        string IntToRoman(int num)
+
+        public string IntToRoman(int num)
         {
             var resp = "";
             List<Roman> sd = new List<Roman> { new Roman { Key= "I", value = 1 },
@@ -54,12 +54,12 @@ namespace LeetCode
       
 
 
-        public static void Main()
-        {
-            IntTo_Roman obj = new();
-            var r = obj.IntToRoman(1994);
-            Console.WriteLine(r);
-        }
+        //public static void Main()
+        //{
+        //    IntTo_Roman obj = new();
+        //    var r = obj.IntToRoman(1994);
+        //    Console.WriteLine(r);
+        //}
     }
 }
 public class Roman

@@ -33,12 +33,12 @@ namespace LeetCode
 
             return f;
         }
-        public static void Main()
-        {
-            int[] citations = { 3, 0, 6, 1, 5 };
-            H_index c = new();
+        //public static void Main()
+        //{
+        //    int[] citations = { 3, 0, 6, 1, 5 };
+        //    H_index c = new();
              
-            c.HIndex(citations);
-        }
+        //    c.HIndex(citations);
+        //}
     }
 }

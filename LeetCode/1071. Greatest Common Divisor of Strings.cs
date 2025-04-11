@@ -5,12 +5,12 @@ using System.Text;
 using System.ComponentModel.DataAnnotations;
 namespace LeetCode
 {
-    internal class GcdOf_Strings
+    public  class GcdOf_Strings
     {
 
         //1071. Greatest Common Divisor of Strings
 
-        string GcdOfStrings(string str1, string str2)
+        public string GcdOfStrings(string str1, string str2)
         {
             string my_sub = "";
             string my_sub2 = "";
@@ -37,11 +37,6 @@ namespace LeetCode
             }
             return my_sub2;
         }
-        public static void Main()
-        {
-            GcdOf_Strings obj = new(); 
-
-            Console.WriteLine(obj.GcdOfStrings("ABCDEF", "ABC"));
-        }
+       
     }
 }
